@@ -235,11 +235,10 @@ Yᴏᴜʀ <ul>ᴘʀᴇᴍɪᴜᴍ ᴘʟᴀɴ</ul> ᴡɪʟʟ ʙᴇ ᴀᴄᴛɪᴠ
 ɴᴏᴡ ʏᴏᴜ ʜᴀᴠᴇ ᴜɴʟɪᴍɪᴛᴇᴅ ᴀᴄᴄᴇss ꜰᴏʀ ɴᴇxᴛ ꜰᴜʟʟ ᴅᴀʏ </b>"""
 
 
-    MOVIES_UPDATE_TXT = """<b>#New_File_Added
-Title: {title}
-Rating: {rating}
-Genre: {genre}
-Description: {description}
+    MOVIES_UPDATE_TXT = """<b>#ɴᴇᴡ_ꜰɪʟᴇ_ᴀᴅᴅᴇᴅ
+ᴛɪᴛʟᴇ: {title}
+ʀᴀᴛɪɴɢ: {rating}
+ɢᴇɴʀᴇ: {genre}
 </b>"""
     
     VERIFIED_LOG_TEXT = """<b><u>☄ ᴜsᴇʀ ᴠᴇʀɪꜰɪᴇᴅ sᴜᴄᴄᴇssꜰᴜʟʟʏ ☄</u>
