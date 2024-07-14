@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', '17187c5466fb7044793bfa8bcaa9ec68')
 BOT_TOKEN = environ.get('BOT_TOKEN', '')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1511468725').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/rajbharsaheb")
+USERNAME = environ.get('USERNAME', "https://telegram.me/master_hp_raj")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001965914571'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+hf0frQmRGu41Yzll')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001840476165').split()]
@@ -28,7 +28,12 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Hanuman")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'RajbharPahadan')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001840476165'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/b29829b61e135a28e4f37.jpg')
-START_IMG = environ.get('START_IMG', 'https://graph.org/file/ea418cc5fc869fe3b65f0.jpg')
+START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/e70b244bb8fe9725e66f1.jpg
+https://telegra.ph/file/34e7e5bea04a88d534414.jpg
+https://telegra.ph/file/57a9ae4c1858927eda696.jpg
+https://telegra.ph/file/279842d3413563d45f34d.jpg
+https://telegra.ph/file/ee8aeccd8085907695d5a.jpg
+https://telegra.ph/file/a15da92b0761b4e8b7e50.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1001928522177'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001865368873'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
