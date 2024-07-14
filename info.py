@@ -28,12 +28,7 @@ DATABASE_NAME = environ.get('DATABASE_NAME', "Hanuman")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'RajbharPahadan')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001840476165'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/b29829b61e135a28e4f37.jpg')
-START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/e70b244bb8fe9725e66f1.jpg
-https://telegra.ph/file/34e7e5bea04a88d534414.jpg
-https://telegra.ph/file/57a9ae4c1858927eda696.jpg
-https://telegra.ph/file/279842d3413563d45f34d.jpg
-https://telegra.ph/file/ee8aeccd8085907695d5a.jpg
-https://telegra.ph/file/a15da92b0761b4e8b7e50.jpg')
+START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/07f0e583519b4c687548b.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1001928522177'))
 DELETE_CHANNELS = int(environ.get('DELETE_CHANNELS','-1001865368873'))
 URL = environ.get('URL', 'mytestbot-jvdfhbj.com')
