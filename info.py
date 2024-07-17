@@ -20,13 +20,13 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '')
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1511468725').split()]
 USERNAME = environ.get('USERNAME', "https://telegram.me/master_hp_raj")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1001965914571'))
-MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+hf0frQmRGu41Yzll')
+MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1001840476165').split()]
 DATABASE_URI = environ.get('', "mongodb+srv://Hanuman:hanuman@cluster0.l5toshc.mongodb.net/?retryWrites=true&w=majority")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Hanuman")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'RajbharPahadan')
-LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001840476165'))
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'RAMANUMAN')
+LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1001965914571'))
 QR_CODE = environ.get('QR_CODE', 'https://graph.org/file/b29829b61e135a28e4f37.jpg')
 START_IMG = environ.get('START_IMG', 'https://telegra.ph/file/07f0e583519b4c687548b.jpg')
 BIN_CHANNEL = int(environ.get('BIN_CHANNEL','-1002241178189'))
@@ -56,7 +56,7 @@ PREMIUM_POINT = 1500
 auth_channel = environ.get('AUTH_CHANNEL', '-1001965914571')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001599336908'))
-request_channel = environ.get('REQUEST_CHANNEL', '-1001928522177')
+request_channel = environ.get('REQUEST_CHANNEL', '-1002241178189')
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
 UPI_PAY_LOGS = int(environ.get('UPI_PAY_LOGS', '-1001965914571'))
 MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '-1002241178189'))
